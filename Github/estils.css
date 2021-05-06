@@ -1,0 +1,77 @@
+body {
+  background-image: url(img/pastel.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: pink;
+  font-family: verdana;
+  font-weight: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+#contenedor {
+  width: 1300px;
+  height: 1000px;
+  background-color:;
+  margin: 0 auto;
+}
+
+#header {
+  margin: 0;
+  padding: 0;
+  height: 80px;
+  width: 1920px;
+  background-color: black;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Mr Dafoe', cursive;
+  font-family: 'Mrs Saint Delafield', cursive;
+  font-size: 50px;
+  line-height: 85px;
+  letter-spacing: 3px;
+  color: white;
+}
+
+li {
+  height: 170px;
+  width: 180px;
+  margin: 15px;
+  background-color: white;
+  text-align: center;
+  line-height: 170px;
+  clip-path: polygon(51% 0, 91% 27%, 91% 77%, 50% 100%, 11% 76%, 11% 29%);
+  position: relative;
+  top: 350px;
+  left: 90px;
+  float: left;
+}
+
+#cinc {
+  float: left;
+  clear: both;
+  position: relative;
+  left: 50px;
+}
+
+#line2 {
+  position: relative;
+  left: 100px;
+}
+
+#nueve {
+  float: left;
+  clear: both;
+  position: relative;
+  left: 50px;
+}
+
+#footer {
+  height: 200px;
+  width:1920px;
+  background-color: black;
+}
