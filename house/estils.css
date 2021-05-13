@@ -1,0 +1,315 @@
+body {
+  background-color: #87ceeb;
+  margin: 0;
+  padding: 0;
+  animation: body 6s infinite;
+}
+
+@keyframes body {
+  from {background-color: #87ceeb;}
+  to {background-color: #1f263b;}
+}
+
+.humito {
+  width: 60px;
+  height: 60px;
+  background: grey;
+  position: absolute;
+  left: 512px;
+  top: 335px;
+  border-radius: 50%;
+  opacity: 80%;
+  animation: humito 4s infinite;
+}
+
+.humito::after {
+  width: 50px;
+  height: 50px;
+  background: grey;
+  position: absolute;
+  content: "";
+  left: -15px;
+  top: -100px;
+  border-radius: 50%;
+}
+
+@keyframes humito {
+  from {top: 380px }
+  to {top: 250px}
+}
+
+#chimenea{
+  width: 60px;
+  height: 90px;
+  background: #9B634C;
+  position: absolute;
+  left: 525px;
+  top: 390px;
+}
+
+#fachada{
+  width: 300px;
+  height:250px;
+  background: linear-gradient(to top right, #ff9aa2 0%, #ffdac1 110%);
+  position: absolute;
+  left: 500px;
+  top: 500px;
+
+}
+
+#cesped {
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  top: 750px;
+  background: #00721b;
+}
+
+#tejado{
+  width: 320px;
+  height: 90px;
+  background: grey;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  position: absolute;
+  left: 487px;
+  top: 430px;
+}
+
+#puerta {
+  width: 100px;
+  height: 90px;
+  background: #9B634C;
+  position: relative;
+  border: 4px solid #FFDAC1;
+  left: 93px;
+  top: 160px;
+}
+
+.ventanas {
+  width: 50px;
+  height: 65px;
+  background: white;
+  position: absolute;
+  border: 4px solid #FFDAC1;
+}
+#ventana1{
+  left: 60px;
+  top: 50px;
+}
+
+#ventana2 {
+left: 180px;
+top: 50px;
+}
+
+
+.montana {
+  width:550px;
+  height:500px;
+  position:absolute;
+  top:250px;
+
+}
+
+#montana1 {
+background: #003c0a;
+clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+left:20px;
+}
+
+#montana2 {
+  background: #145A32;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  left: 250px;
+  opacity: 90%;
+}
+
+#montana3 {
+background: #003c0a;
+clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+
+left: 500px;
+}
+
+#montana4 {
+background: #145A32;
+clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+
+left: 730px;
+}
+
+.sol {
+  width: 300px;
+  height: 300px;
+  background: orange;
+  border-radius: 50%;
+  position: absolute;
+  left: 700px;
+  top: 50px;
+  box-shadow: 0px 0px 100px 100px #FFFCC9;
+  animation: sol 6s infinite;
+}
+
+@keyframes sol {
+  from {background-color: #f7dc6f; top: 0px }
+  to {top: 800px}
+}
+
+
+@keyframes cloud1 {
+  from {right: 100px;}
+  to {left: 1200px;}
+}
+
+.cloud {
+  position: absolute;
+  width: 160px;
+	height: 80px;
+	background: #fff;
+	border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+  top: 80px;
+  left: 80px;
+  animation:cloud 15s infinite;
+}
+
+@keyframes cloud {
+  from {right: 100px;}
+  to {left: 1200px;}
+}
+
+#cloud1 {
+  left: 100px;
+  top: 170px;
+  animation:cloud 15s infinite;
+}
+
+#cloud2 {
+  left: 100px;
+  top: 50px;
+  animation:cloud 20s infinite;
+}
+
+.cloud:before, .cloud:after{
+  content:'';
+  position: absolute;
+  background: #fff;
+}
+  .cloud:before {
+  content: '';
+  width: 160px;
+	height: 80px;
+  border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+  left: 55px;
+  top: 5px;
+}
+.cloud:after {
+  content: '';
+  width: 160px;
+  height: 80px;
+  border-radius: 100px / 50px;
+  border-radius: 100px / 50px;
+  left: 25px;
+  top: -15px;
+}
+
+
+
+#position{
+	position:fixed;
+	top: 590px;
+	left:300px;
+}
+.sunflower{
+  position:relative;
+  height:30px;
+  width:30px;
+}
+.head {
+  height: 50px;
+  width: 62px;
+  position: relative;
+  left:8px;
+  top:39px;
+}
+
+.petals {
+  z-index:-1;
+  border-radius:100%;
+  display:inline-block;
+  background-color:#faaa18;
+  height:50px;
+  width:50px;
+  position:absolute;
+  animation:petals 4s infinite linear;
+  box-shadow:15px 17px #ffe000,
+    -15px 17px #ffe000,
+    -22px -7px #ffe000,
+    0px -22px #ffe000,
+    22px -7px #ffe000;
+}
+.trunk{
+	height: 65px; width: 5px;
+	background:#77b039;
+	left: 37px;top:100px;
+	position:absolute;
+	z-index:-2;
+	animation:trunk 4s infinite linear;
+}
+.left-branch{
+	background: #77b039;
+	height: 35px; width: 9px;
+	position: absolute; left: -12px; top: 24px;
+	border-radius:100% 0% 0% 0%;
+	-webkit-border-radius:100% 0% 0% 0%;
+	-moz-border-radius:100% 0% 0% 0%;
+	-ms-border-radius:100% 0% 0% 0%;
+	-o-border-radius:100% 0% 0% 0%;
+
+	transform: rotate(-50deg);
+	-webkit-transform: rotate(-50deg);
+	-moz-transform: rotate(-50deg);
+	-ms-transform: rotate(-50deg);
+	-o-transform: rotate(-50deg);
+}
+
+.right-branch{
+	background: #77b039;
+	height: 35px; width: 9px;
+	position: absolute; top: 24px; left: 10px;
+	border-radius:0% 100% 0% 0%;
+	-webkit-border-radius:0% 100% 0% 0%;
+	-moz-border-radius:0% 100% 0% 0%;
+	-ms-border-radius:0% 100% 0% 0%;
+	-o-border-radius:0% 100% 0% 0%;
+
+	transform: rotate(50deg);
+	-webkit-transform: rotate(50deg);
+	-moz-transform: rotate(50deg);
+	-ms-transform: rotate(50deg);
+	-o-transform: rotate(50deg);
+}
+
+
+@keyframes petals {
+	0% {transform: rotate(0);left:10px;}
+	25% {left:20px;}
+	50% {left:10px;}
+	75% {left:20px;}
+	100% {transform: rotate(360deg);left:10px;}
+}
+@keyframes hmove {
+	0% {left:5px;}
+	25% {left:15px;}
+	50% {left:5px;}
+	75% {left:15px;}
+	100% {left:5px;}
+}
+@keyframes trunk {
+	0% {left:34px;transform:rotate(-5deg);}
+	25% {left:40px;transform:rotate(5deg);}
+	50% {left:34px;transform:rotate(-5deg);}
+	75% {left:40px;transform:rotate(5deg);}
+	100% {left:34px;transform:rotate(-5deg);}
+}
