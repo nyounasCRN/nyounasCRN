@@ -1,0 +1,156 @@
+body {
+  background-color: pink;
+}
+
+#contenedor{
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+#pelo{
+  width: 360px;
+  height: 550px;
+  background-color: #ca7968;
+  background-image: linear-gradient(to bottom, #0c0c0c 0%, #ca7968 74%);
+  border-radius: 40% 40% 10% 10%;
+  top:100px;
+}
+
+#bangs {
+  background-color: #ca7968;
+  background-image: linear-gradient(to bottom, #0c0c0c 0%, #ca7968 74%);
+  width: 200px;
+  height: 140px;
+  border-radius: 94% 6% 95% 5% / 94% 5% 95% 6% ;
+  position: relative;
+  top: -1px;
+  left: 60px;
+  clear: both;
+}
+
+#cara {
+  background-color: #FFDBAC;
+  width: 400px;
+  height: 350px;
+  clip-path: ellipse(33% 48% at 50% 50%);
+  position: relative;
+  top: 30px;
+  left: -15px;
+}
+
+#eyebrow {
+  background: #;
+  background-image: linear-gradient(to bottom, #ca7968 0%, #0c0c0c 74%);
+  width: 100px;
+  height: 80px;
+  clip-path: polygon(70% 27%, 96% 41%, 54% 38%, 0 44%, 0 34%, 49% 28%);
+  position: relative;
+  top: -55px;
+  left: 220px;
+
+}
+.lash {
+  background: black;
+  width: 10;
+  height: 15;
+  clip-path: polygon(50% 0%, 16% 100%, 86% 100%);
+  position: relative;
+}
+#lash1{
+  top: -219px;
+  left: 105px;
+  transform: rotate(-25deg);
+}
+#lash2{
+  top: -228px;
+  left: 95px;
+  transform: rotate(-35deg);
+}
+#lash3{
+  top: -239px;
+  left: 305px;
+  transform: rotate(40deg);
+}
+#lash4{
+  top: -260px;
+  left: 295px;
+  transform: rotate(30deg);
+}
+.ojo {
+  background-color: white;
+  width: 70px;
+  height: 60px;
+  border-radius: 94% 6% 95% 5% / 94% 5% 95% 6% ;
+  position: relative;
+  clear: both;
+}
+
+#ojo1 {
+  left: 105px;
+  top: -100px;
+  transform: rotate(40deg);
+}
+
+#ojo2 {
+  left: 230px;
+  top: -160px;
+  transform: rotate(40deg);
+}
+
+.balls {
+  width: 20px;
+  height: 20px;
+  background: #222f3e;
+  border-radius: 50%;
+  border: 10px solid #576574;
+  position: absolute;
+}
+
+#ball1 {
+  top: 130px;
+  left: 120px;
+}
+
+#ball2 {
+  top: 130px;
+  left: 245px;
+}
+
+#nose {
+  background-color: #ffd399;
+  width: 90px;
+  height: 80px;
+  clip-path: polygon(60% 39%, 70% 25%, 71% 100%, 45% 100%);
+  position: relative;
+  top:-245px;
+  left: 145px;
+
+
+}
+#back {
+  background-color: red;
+  width: 90px;
+  height: 100px;
+  position: relative;
+  top: 10px;
+  left: 130px;
+}
+
+.lips {
+  background-color: #E58C8A;
+  width: 100px;
+  height: 130px;
+  position: relative;
+  left: 150px;
+  clear: both;
+}
+#lips1 {
+  clip-path: polygon(100% 71%, 90% 78%, 51% 89%, 9% 78%, 0 71%);
+  top: -283px;
+}
+
+#lips2 {
+  clip-path: polygon(100% 71%, 69% 62%, 48% 64%, 27% 62%, 0 71%);
+  top: -414px;
+}
