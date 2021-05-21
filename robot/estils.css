@@ -1,0 +1,124 @@
+body {
+  background-color: pink;
+}
+
+#contenedor{
+  width: 900px;
+  height: 1500px;
+  top: 200;
+  background-color: white;
+  margin: 0 auto;
+}
+
+#circle {
+  height: 60px;
+  width: 60px;
+  background: #a5c1d6;
+  border-radius: 50%;
+  border: 5px solid black;
+  left: 410px;
+  top: 44px;
+  position: relative;
+}
+
+.triangle {
+  height: 200px;
+  width: 150px;
+  background: #a5c1d6;
+  border: 5px solid black;
+  left: 365px;
+  top: 40px;
+  clip-path: polygon(43% 0, 58% 0, 78% 100%, 25% 100%);
+  position: relative;
+}
+
+.bottom {
+  height: 45px;
+  width: 110px;
+  background: #a5c1d6;
+  border: 5px solid black;
+  left: 390px;
+  top: 20px;
+  border-radius: 51% 49% 50% 50% / 69% 65% 35% 31% ;
+  position: relative;
+}
+
+.contorno {
+  width: 600px;
+  height: 900px;
+  background-color: #a5c1d6;
+  border: solid black 6px;
+  border-radius: 250px 250px 100px 100px;
+  margin: 0 auto;
+}
+
+#ojo {
+  width: 225px;
+  height: 225px;
+  background-color: #fefac2;
+  border-radius: 50%;
+  border: solid black 6px;
+  position: relative;
+}
+
+.ojo1 {
+  top: 300px;
+  left: -100;
+}
+
+.ojo2 {
+  top: 65px;
+  left: 100px;
+}
+
+.ojo1:before, .ojo2:before {
+  width: 50px;
+  height: 50px;
+  background-color: #040407;
+  border-radius:  50%;
+  position: absolute;
+  content: '';
+  left: 120px;
+  top: 90px;
+}
+
+.boca {
+  width: 400px;
+  height: 200px;
+  background-color: #fefac2;
+  border: solid black 6px;
+  position: relative;
+  top: 130px;
+  left: -6;
+  border-radius: 0px 50px 50px 0px;
+}
+
+hr {
+  height: 10px;
+  background-color: black;
+  border: solid black;
+  position: relative;
+  margin-top: 40px;
+}
+
+vr {
+  width: 15px;
+  height: 208px;
+  background-color: black;
+  position: absolute;
+  top: 953px;
+  bottom: 0;
+}
+
+#vr1 {
+
+  left: 950px;
+}
+
+#vr2 {
+  left: 815px;
+}
+
+#vr3 {
+  left: 700px;
+}
