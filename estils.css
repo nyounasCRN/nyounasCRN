@@ -225,10 +225,10 @@ body { margin: 0; font: 16px/1.3 sans-serif; }
 #s11:target ~ .slider {transform: translateX(-1000%); -webkit-transform: translateX(-1000%);}
 #s12:target ~ .slider {transform: translateX(-1100%); -webkit-transform: translateX(-1100%);}
 #s13:target ~ .slider {transform: translateX(-1200%); -webkit-transform: translateX(-1200%);}
-#s14:target ~ .slider {transform: translateX(-1300%); -webkit-transform: translateX(-900%);}
-#s15:target ~ .slider {transform: translateX(-1400%); -webkit-transform: translateX(-1000%);}
-#s16:target ~ .slider {transform: translateX(-1500%); -webkit-transform: translateX(-1100%);}
-#s17:target ~ .slider {transform: translateX(-1600%); -webkit-transform: translateX(-1200%);}
+#s14:target ~ .slider {transform: translateX(-1300%); -webkit-transform: translateX(-1300%);}
+#s15:target ~ .slider {transform: translateX(-1400%); -webkit-transform: translateX(-1400%);}
+#s16:target ~ .slider {transform: translateX(-1500%); -webkit-transform: translateX(-1500%);}
+#s17:target ~ .slider {transform: translateX(-1600%); -webkit-transform: translateX(-1600%);}
 
 .CSSgal{
 	color: #fff;
