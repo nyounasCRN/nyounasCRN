@@ -1,0 +1,83 @@
+body {
+  background-color: cyan;
+}
+
+#contenidor {
+  width: 800px;
+  height: 600px;
+  background-color: pink;
+  margin: 0 auto;
+}
+
+#nav {
+  height: 100px;
+  background-color: pink;
+}
+
+.boletes:hover {
+  opacity: 50%;
+  transform: scale(1.5);
+}
+
+.boletes {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  float: left;
+  border-radius: 50px;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  line-height: 100px;
+}
+
+#boleta1 {
+  background-color: purple;
+  margin-left: 200px;
+}
+
+#boleta2 {
+  background-color: navy;
+}
+
+#boleta3 {
+  background-color: orange;
+}
+
+#boleta4 {
+  background-color: yellow;
+}
+
+.caixa{
+  width: 400px;
+  height: 400px;
+  float: left;
+  font-family: sans-serif;
+  color: white;
+  font-size: 75px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 400px;
+}
+
+#caixa1{
+  background-color: navy;
+  float: left;
+}
+
+#caixa2{
+  background-color: orange;
+  float: left;
+}
+
+#footer{
+  background-color: yellow;
+  height: 100px;
+  width: 800px;
+  float: left;
+  font-family: fantasy;
+  text-align: center;
+  font-size: 35px;
+  line-height: 100px;
+
+}
