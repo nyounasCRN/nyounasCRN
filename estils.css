@@ -182,7 +182,6 @@ body { margin: 0; font: 16px/1.3 sans-serif; }
 #s13:target ~ .bullets >*:nth-child(13) {background: black;}
 #s14:target ~ .bullets >*:nth-child(14) {background: #f08080;}
 #s15:target ~ .bullets >*:nth-child(15) {background: black;}
-#s16:target ~ .bullets >*:nth-child(16) {background: #f08080;}
 
 /* PREV/NEXT CONTAINERS VISIBILITY */
 /* ALL: */
@@ -203,7 +202,6 @@ body { margin: 0; font: 16px/1.3 sans-serif; }
 #s13:target ~ .prevNext >*:nth-child(13) {visibility: visible;}
 #s14:target ~ .prevNext >*:nth-child(14) {visibility: visible;}
 #s15:target ~ .prevNext >*:nth-child(15) {visibility: visible;}
-#s16:target ~ .prevNext >*:nth-child(16) {visibility: visible;}
 /* More slides*/
 
 /* SLIDER ANIMATION POSITIONS */
@@ -223,7 +221,6 @@ body { margin: 0; font: 16px/1.3 sans-serif; }
 #s13:target ~ .slider {transform: translateX(-1200%); -webkit-transform: translateX(-1200%);}
 #s14:target ~ .slider {transform: translateX(-1300%); -webkit-transform: translateX(-1300%);}
 #s15:target ~ .slider {transform: translateX(-1400%); -webkit-transform: translateX(-1400%);}
-#s16:target ~ .slider {transform: translateX(-1500%); -webkit-transform: translateX(-1500%);}
 
 .CSSgal{
 	color: #fff;
