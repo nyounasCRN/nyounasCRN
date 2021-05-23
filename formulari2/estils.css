@@ -1,0 +1,36 @@
+body {
+  background-color: pink;
+}
+
+h1{
+  text-align: center;
+  color: white;
+}
+
+#contenedor {
+  background-color: white;
+  width:180px;
+  margin: 0 auto;
+}
+
+input{
+  position: relative;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin: 10px;
+}
+
+#submit {
+  margin-left: 55px;
+  font-family: monospace;
+  color: pink;
+
+}
+
+.cajitas {
+  width: 150px;
+  height: 25px;
+  background-color: white;
+  text-align: center;
+  margin: 10px;
+}

@@ -1,0 +1,27 @@
+body {
+  background-color: black;
+
+}
+
+h1{
+  text-align: center;
+  color: white;
+  font-family: monospace;
+  margin: 30px;
+}
+
+#contenedor {
+  background-color: ;
+  width:190px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+
+input {
+  margin: 5px;
+  color: black;
+  font-family: monospace;
+  text-align: center;
+}

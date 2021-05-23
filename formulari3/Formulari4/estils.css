@@ -1,0 +1,46 @@
+body {
+  background-image: url(img/pastel.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: black;
+}
+
+h1{
+  text-align: center;
+  color: black;
+  font-family: monospace;
+  margin: 30px;
+}
+
+#contenedor {
+  background-color:;
+  width:200px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+
+p {
+  color: black;
+  font-size: 15px;
+  margin: ;
+  padding: 0;
+  text-align: center;
+  font-family: monospace;
+}
+
+option {
+  text-align: center;
+}
+
+.cajitas {
+  width: 150px;
+  height: 25px;
+  background-color: white;
+  text-align: center;
+  margin: 15px;
+  font-family: monospace;
+  font
+}

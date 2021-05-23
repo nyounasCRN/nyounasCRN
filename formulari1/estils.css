@@ -1,0 +1,34 @@
+body {
+  background: #f88379;
+}
+
+h1 {
+  text-align: center;
+}
+
+#contenedor {
+  width: 250px;
+  background-color: white;
+  margin: 0 auto;
+}
+
+input {
+  margin: 5px;
+  }
+
+.cajitas {
+  width: 200px;
+  height: 35px;
+  background-color: black;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.cajitas, p {
+  font-family: monospace;
+  color: white;
+}
+
+::-webkit-input-placeholder {
+ color: white;
+}

@@ -1,0 +1,35 @@
+body{
+  font-family: 'Bebas Neue', cursive;
+}
+
+
+.cuadres {
+  width: 160px;
+  margin: 5px;
+  height: 160px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.cuadres:hover {
+  opacity: 50%;
+  transform: scale(1.5);
+}
+
+#uno {
+  background-color: #ffe8e8;
+
+}
+
+#dos{
+  background-color: #ffb4b4 ;
+
+}
+
+#tres{
+  background-color: #ff9292 ;
+}
+
+#cuatro{
+  background-color: #f08080;
+}

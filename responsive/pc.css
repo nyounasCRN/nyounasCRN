@@ -1,0 +1,78 @@
+@media screen and (min-width: 768px) {
+  body {
+    background-color: #282828;
+}
+
+#contenedor {
+
+  margin: 0 auto;
+  }
+
+#header {
+  margin-top: 0;
+  margin-left: -10px;
+  width: 1200px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  font-size: 40px;
+  background-color: #ff9292;
+}
+
+.header:hover {
+  opacity: 50%;
+  transform: scale(1.5);
+}
+
+
+.cuadres {
+  width: 250px;
+  margin: 40px;
+  height: 250px;
+  border-radius: 10%;
+  line-height: 250px;
+  float: left;
+  position: relative;
+  left: 260px;
+  top: 50px;
+  font-size: 50px;
+  color: #282828;
+}
+
+.cuadres:hover {
+  opacity: 30%;
+  transform: scale(1);
+}
+
+
+#tres{
+  clear:both;
+}
+
+#titol {
+  clear: both;
+  margin-left: -10px;
+  width: 1200px;
+  height: 150px;
+  line-height: 130px;
+  text-align: center;
+  background-color: white;
+  position: relative;
+  top: 140px;
+  font-size: 40px;
+  color: #ff9292;
+}
+#footer {
+  margin: 0px;
+  padding: 0px;
+  clear: both;
+  margin-left: -10px;
+  width: 1200px;
+  height: 80px;
+  line-height: 90px;
+  text-align: center ;
+  background-color: #ff9292;
+  position: relative;
+  top: 130px;
+  font-size: 35px;
+}
